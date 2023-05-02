@@ -1,14 +1,14 @@
 /* linear-gradient(to bottom,
-    #076470 0%,
+    #4D7465 0%,
     #d8d1d1 30%,
-    #dab694 64%,
-    #8f8787 100%)*/
+    #E1D883 64%,
+    #FFFFFF 100%)*/
 
     :root {
-        --primary-color: #076470;
-        --secondary-color: #dab694;
-        --tertiary-color: #8f8787;
-        --accent-color: #101c1d;
+        --primary-color: #4D7465;
+        --secondary-color: #E1D883;
+        --tertiary-color: #FFFFFF;
+        --accent-color: #0f2612;
         --highlight-color: #d8d1d1;
         --heading-font: "Tangerine", cursive;
       }
