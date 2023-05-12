@@ -140,13 +140,14 @@
       </div>
     </div>
 
-    <div class="container mb-5" id="enquiry-form">
-      <form
+   <div class="container mb-5" id="enquiry-form">
+       <form
         name="websiteEnquiry"
         action="/thankyou.html"
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
+        onsubmit="handleSubmit(event)"
       >
         <h3 class="text-center mb-5">Get in touch</h3>
         <p class="d-none">
