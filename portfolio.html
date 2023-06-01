@@ -53,15 +53,14 @@
   <body>
     <nav
       class="navbar navbar-expand-md"
-      style="background-color: var(--primary-color)"
     >
       <div class="container-fluid">
         <a class="navbar-brand" id="monogram" href="/"
-          ><img src="images/favicon/favicon.ico" alt="Lilyia Drozdovska logo"
+          ><img src="images/favicon/favicon.ico" 
+          alt="Lilyia Drozdovska logo"
         /></a>
         <button
           class="navbar-toggler"
-          style="color: var(--secondary-color)"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
@@ -103,6 +102,10 @@
                     title="Lilyia's Websites"
                     >Websites</a
                   >
+                  <a class="dropdown-item" 
+                  href="/portfolio.html#bottom" 
+                  title="Lilyia's Websites">App</a>
+
                 </li>  
               </ul>
             </li>
@@ -141,6 +144,7 @@
             src="images/weather-app.PNG"
             class="img-fluid rounded thumbnail"
             alt="Webpage showing the current and forecast weather"
+            loading="lazy"
           />
         </div>
         <div class="col-5 feature-projects mb-5">
@@ -182,6 +186,7 @@
             src="images/blog.PNG"
             class="img-fluid rounded thumbnail"
             alt="Webpage about cheese"
+            loading="lazy"
           />
         </div>
         <div class="col-5 feature-projects mb-5 d-md-inline d-none">
@@ -189,6 +194,7 @@
             src="images/Dictionary.jpg"
             class="img-fluid rounded thumbnail"
             alt="Dictionary App"
+            loading="lazy"
           />
         </div>
         <div class="col-5 feature-projects mb-5">
@@ -255,6 +261,12 @@
           </div>
         </h5>
       </div>
+      <div id="bottom"></div>
     </footer>
+    <script>
+      function scrollToBottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+      }
+    </script>
   </body>
 </html>

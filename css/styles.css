@@ -168,7 +168,12 @@
         border: 1px solid var(--secondary-color);
         border-radius: 10px;
       }
-      
+      .navbar {
+      background-color: var(--primary-color);
+      }
+      .button {
+        color: var(--secondary-color)"
+      }
       @media (max-width: 768px) {
         h1,
         h2,
