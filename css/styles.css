@@ -5,13 +5,13 @@
     #FFFFFF 100%)*/
 
     :root {
-        --primary-color: #4D7465;
-        --secondary-color: #E1D883;
-        --tertiary-color: #FFFFFF;
-        --accent-color: #0f2612;
-        --highlight-color: #d8d1d1;
-        --heading-font: "Tangerine", cursive;
-      }
+      --primary-color: #4D7465;
+      --secondary-color: #E1D883;
+      --tertiary-color: #FFFFFF;
+      --accent-color: #0f2612;
+      --highlight-color: #d8d1d1;
+      --heading-font: "Tangerine", cursive;
+    }
       body {
         font-family: "Urbanist", sans-serif;
       }
@@ -165,65 +165,8 @@
         margin-top: 30px;
         margin-bottom: 30px;
         padding: 20px 20px;
-        border: 1px solid var(--secondary-color);
-        border-radius: 10px;
+        border: 1px sol 
       }
       .navbar {
-      background-color: var(--primary-color);
-      }
-      .button {
-        color: var(--secondary-color)"
-      }
-      @media (max-width: 768px) {
-        h1,
-        h2,
-        h3,
-        .header-description,
-        .story p {
-          text-align: center;
+        background-color: var(--primary-color);
         }
-        h1 {
-          font-size: 62px;
-        }
-        h4 {
-          text-align: center;
-          font-size: 18px;
-        }
-        .headshot {
-          position: unset;
-        }
-        .headshot img {
-          width: 250px;
-          height: 250px;
-        }
-        .hero,
-        .about-skills {
-          padding: 40px 20px 60px;
-        }
-        .btn-brand {
-          display: block;
-          margin: 30px auto;
-          width: 60%;
-          font-size: 16px;
-        }
-        .feature-projects {
-          width: 80%;
-          margin-bottom: 20px !important;
-        }
-        .feature-projects p {
-          text-align: center;
-          font-size: 16px;
-        }
-        .skills-description {
-          padding-left: 40px;
-        }
-        .anchor {
-          justify-content: center;
-          text-align: center !important;
-        }
-      }
-      .icon {
-        cursor: pointer;
-      }
-    
-      
